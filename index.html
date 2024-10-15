@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>storage-assignment</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <script defer src="script.js"></script> <!-- We’ll write the JavaScript here later -->
+</head>
+<body>
+    <h1>Welcome, User!</h1>
+
+    <!-- Form will go here -->
+    <form id="username">
+        <label for="name">Enter your full Name:</label>
+        <input type="text" id="name" name="name">
+         <br><br>
+    
+        <br><br>
+        <button id="save-btn" type="button"onclick="alert('Name saved')"> Save Name</button>
+        <button id="clear-btn"type="button"onclick="alert('Cleared')">clear Name</button>
+   
+    </form>
+    
+    <p id="successMessage" class="success"></p> <!-- For showing success message -->
+    
+  
+</body>
+</html>
